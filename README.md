@@ -1,1 +1,2 @@
-# go-sample-code
+# Go Sample Code
+This repository serves as documentation for the code I wrote while learning Go. The sample code is taken from [Go Programming Language, The (Addison-Wesley Professional Computing Series) 1st Edition](https://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440/ref=sr_1_1?qid=1581266295&refinements=p_27%3AAlan+A.+A.+Donovan&rnid=1000&s=books&sr=1-1&text=Alan+A.+A.+Donovan).
