@@ -1,4 +1,4 @@
-package tutorial
+package gosamplecode
 
 import (
 	library "github.com/andresianipar/go-sample-code/internal"

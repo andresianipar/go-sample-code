@@ -1,4 +1,4 @@
-package tutorial
+package gosamplecode
 
 import (
 	"net/http"
@@ -15,7 +15,7 @@ func TestF1_F2_F3(t *testing.T) {
 	f1 := tutorial.F1()
 
 	if "" == f1 {
-		t.Errorf("Should not \"\"")
+		t.Errorf("Should not be an empty string")
 	}
 
 	// Test F2 function
@@ -128,7 +128,7 @@ func TestF9_F10_F11(t *testing.T) {
 	}
 
 	if "" == rr.Body.String() {
-		t.Errorf("Should not \"\"")
+		t.Errorf("Should not be an empty string")
 	}
 }
 

@@ -1,4 +1,4 @@
-package tutorial
+package gosamplecode
 
 // F12 function
 func F12(flip string) (int, int) {
