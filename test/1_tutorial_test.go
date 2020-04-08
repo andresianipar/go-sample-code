@@ -137,7 +137,7 @@ func TestF12_F13(t *testing.T) {
 	// Test F12 function
 	heads, tails := tutorial.F12("heads")
 
-	if 1 != heads && 0 != tails {
+	if 1 != heads || 0 != tails {
 		t.Errorf("heads should be 1 and tails should be 0")
 	}
 

@@ -3,6 +3,7 @@ package main
 // library "github.com/andresianipar/go-sample-code/internal"
 // tutorial "github.com/andresianipar/go-sample-code/pkg/1_tutorial"
 // programStructure "github.com/andresianipar/go-sample-code/pkg/2_program_structure"
+// basicDataTypes "github.com/andresianipar/go-sample-code/pkg/3_basic_data_types"
 
 func _1() {
 	// 1 tutorial > command-line arguments
@@ -97,10 +98,62 @@ func _2() {
 	// programStructure.F25()
 }
 
+func _3() {
+	// 3 basic data types > integers
+	// basicDataTypes.F1()
+	// basicDataTypes.F2()
+	// basicDataTypes.F3()
+	// basicDataTypes.F4()
+
+	// 3 basic data types > floating-point numbers
+	// basicDataTypes.F5()
+
+	// 3 basic data types > complex numbers
+	// basicDataTypes.F6()
+
+	// 3 basic data types > booleans
+	// basicDataTypes.F7()
+	// basicDataTypes.F8(1)
+
+	// 3 basic data types > strings
+	// basicDataTypes.F9()
+	// basicDataTypes.F10()
+
+	// 3 basic data types > strings > string literals
+	// basicDataTypes.F11()
+
+	// 3 basic data types > strings > UTF-8
+	// basicDataTypes.F12("Hello, World!", "Hello")
+	// basicDataTypes.F13("Hello, World!", "World!")
+	// basicDataTypes.F14("Hello, World!", "o, ")
+	// basicDataTypes.F15()
+
+	// 3 basic data types > strings > strings and byte slices
+	// basicDataTypes.F16("a/b/c.go")
+	// basicDataTypes.F17("c.d.go")
+	// basicDataTypes.F18("123456")
+	// basicDataTypes.F19([]int{1, 2, 3, 4})
+
+	// 3 basic data types > strings > conversions between strings and numbers
+	// basicDataTypes.F20(10)
+	// basicDataTypes.F21()
+
+	// 3 basic data types > constants
+	// basicDataTypes.F22()
+	// basicDataTypes.F23()
+
+	// 3 basic data types > constants > the constant generator iota
+	// basicDataTypes.F24()
+	// basicDataTypes.F25()
+}
+
 func main() {
 	// 1 tutorial
 	// _1()
 
 	// 2 program structure
-	_2()
+	// _2()
+
+	// 3 basic data types
+	// _3()
 }

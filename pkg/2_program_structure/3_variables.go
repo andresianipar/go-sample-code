@@ -56,7 +56,7 @@ func F8() string {
 	// fmt.Println(args)
 
 	if !*n {
-		args = ""
+		args = "No arguments"
 
 		// fmt.Printf(args)
 	}

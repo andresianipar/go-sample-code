@@ -23,24 +23,16 @@ func TestF2_F3(t *testing.T) {
 	// Test F2 function
 	f2F, f2C := programStructure.F2()
 
-	if 212 != f2F {
-		t.Errorf("Should be 212")
-	}
-
-	if 100 != f2C {
-		t.Errorf("Should be 100")
+	if 212 != f2F || 100 != f2C {
+		t.Errorf("Should be 212 and 100")
 	}
 
 	// Test F3 function
 	f3FP := programStructure.F3(32)
 	f3BP := programStructure.F3(212)
 
-	if 0 != f3FP {
-		t.Errorf("Should be 0")
-	}
-
-	if 100 != f3BP {
-		t.Errorf("Should be 100")
+	if 0 != f3FP || 100 != f3BP {
+		t.Errorf("Should be 0 and 100")
 	}
 }
 
@@ -49,16 +41,12 @@ func TestF4_F5_F6_F7_F8_F9_F10_F11_F12(t *testing.T) {
 	// Test F4 function
 	f4B, f4F, f4S := programStructure.F4()
 
-	if true != f4B && 4.5 != f4F && "yes" != f4S {
+	if true != f4B || 4.5 != f4F || "yes" != f4S {
 		t.Errorf("Should be true, 4.5, and \"yes\"")
 	}
 
 	// Test F5 function
 	f5 := programStructure.F5()
-
-	if nil == f5 {
-		t.Errorf("Should point to a variable")
-	}
 
 	if 0 == *f5 {
 		t.Errorf("Should not be 0")
@@ -87,7 +75,7 @@ func TestF4_F5_F6_F7_F8_F9_F10_F11_F12(t *testing.T) {
 	// Test F8 function
 	f8 := programStructure.F8()
 
-	if "" != f8 {
+	if "" == f8 {
 		t.Errorf("Should not be empty string")
 	}
 
@@ -101,7 +89,7 @@ func TestF4_F5_F6_F7_F8_F9_F10_F11_F12(t *testing.T) {
 	// Test F10 function
 	f101, f102 := programStructure.F10()
 
-	if 0 != *f101 && 0 != *f102 {
+	if 0 != *f101 || 0 != *f102 {
 		t.Errorf("Should be 0")
 	}
 
@@ -132,7 +120,7 @@ func TestF13_F14_F15_F16(t *testing.T) {
 	// Test F14 function
 	f141, f142 := programStructure.F14()
 
-	if 2 != f141 && 1 != f142 {
+	if 2 != f141 || 1 != f142 {
 		t.Errorf("Should be 2 and 1")
 	}
 
@@ -172,8 +160,8 @@ func TestF17_F18_F19_F20(t *testing.T) {
 	// Test F19 function
 	f19C, f19F, f19B := programStructure.F19()
 
-	if 100 != f19C && 180 != f19F && true == f19B {
-		t.Errorf("Should be 100 and 180")
+	if 100 != f19C || 180 != f19F || true == f19B {
+		t.Errorf("Should be 100, 180, and true")
 	}
 
 	// Test F20 function
