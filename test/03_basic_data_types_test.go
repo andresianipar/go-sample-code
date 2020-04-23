@@ -4,11 +4,11 @@ import (
 	"testing"
 	"time"
 
-	basicDataTypes "github.com/andresianipar/go-sample-code/pkg/3_basic_data_types"
+	basicDataTypes "github.com/andresianipar/go-sample-code/pkg/03_basic_data_types"
 )
 
 // 3 basic data types > integers
-func TestF1_F2_F3_F4(t *testing.T) {
+func Test3_F1_F2_F3_F4(t *testing.T) {
 	// Test F1 function
 	if f11, f12 := basicDataTypes.F1(); 18446744073709551615 != f11 || 0 != f12 {
 		t.Errorf("Should be 18446744073709551615 and 0")
@@ -33,7 +33,7 @@ func TestF1_F2_F3_F4(t *testing.T) {
 }
 
 // 3 basic data types > floating-point numbers
-func TestF5(t *testing.T) {
+func Test3_F5(t *testing.T) {
 	// Test F5 function
 	if f51, f52, _, _, _ := basicDataTypes.F5(); 0 != f51 || -0 != f52 {
 		t.Errorf("Should be 0 and -0")
@@ -41,7 +41,7 @@ func TestF5(t *testing.T) {
 }
 
 // 3 basic data types > complex numbers
-func TestF6(t *testing.T) {
+func Test3_F6(t *testing.T) {
 	// Test F6 function
 	if f61, f62 := basicDataTypes.F6(); -5 != f61 || 10 != f62 {
 		t.Errorf("Should be -5 and 10")
@@ -49,7 +49,7 @@ func TestF6(t *testing.T) {
 }
 
 // 3 basic data types > booleans
-func TestF7_F8(t *testing.T) {
+func Test3_F7_F8(t *testing.T) {
 	// Test F7 function
 	if f71, f72 := basicDataTypes.F7(); true != f71 || true != f72 {
 		t.Errorf("Should be true and true")
@@ -62,7 +62,7 @@ func TestF7_F8(t *testing.T) {
 }
 
 // 3 basic data types > strings
-func TestF9_F10_F11_F12_F13_F14_F15_F16_F17_F18_F19_F20_F21(t *testing.T) {
+func Test3_F9_F10_F11_F12_F13_F14_F15_F16_F17_F18_F19_F20_F21(t *testing.T) {
 	// Test F9 function
 	if f91, f92, f93, f94 := basicDataTypes.F9(); "Hello, World!" != f91 || 13 != f92 || 72 != f93 || 100 != f94 {
 		t.Errorf("Should be \"Hello, World!\", 13, 72, and 100")
@@ -130,7 +130,7 @@ func TestF9_F10_F11_F12_F13_F14_F15_F16_F17_F18_F19_F20_F21(t *testing.T) {
 }
 
 // 3 basic data types > constants
-func TestF22(t *testing.T) {
+func Test3_F22_F23_F24_F25(t *testing.T) {
 	// Test F22 function
 	const a time.Duration = 0
 	const b = 5 * time.Minute

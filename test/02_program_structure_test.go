@@ -3,13 +3,13 @@ package gosamplecode
 import (
 	"testing"
 
-	programStructure "github.com/andresianipar/go-sample-code/pkg/2_program_structure"
+	programStructure "github.com/andresianipar/go-sample-code/pkg/02_program_structure"
 
 	library "github.com/andresianipar/go-sample-code/internal"
 )
 
 // 2 program structure > names
-func TestF1(t *testing.T) {
+func Test2_F1(t *testing.T) {
 	// Test F1 function
 	f1 := programStructure.F1()
 
@@ -19,7 +19,7 @@ func TestF1(t *testing.T) {
 }
 
 // 2 program structure > declarations
-func TestF2_F3(t *testing.T) {
+func Test2_F2_F3(t *testing.T) {
 	// Test F2 function
 	f2F, f2C := programStructure.F2()
 
@@ -37,7 +37,7 @@ func TestF2_F3(t *testing.T) {
 }
 
 // 2 program structure > variables
-func TestF4_F5_F6_F7_F8_F9_F10_F11_F12(t *testing.T) {
+func Test2_F4_F5_F6_F7_F8_F9_F10_F11_F12(t *testing.T) {
 	// Test F4 function
 	f4B, f4F, f4S := programStructure.F4()
 
@@ -109,7 +109,7 @@ func TestF4_F5_F6_F7_F8_F9_F10_F11_F12(t *testing.T) {
 }
 
 // 2 program structure > assignments
-func TestF13_F14_F15_F16(t *testing.T) {
+func Test2_F13_F14_F15_F16(t *testing.T) {
 	// Test F13 function
 	f13 := programStructure.F13()
 
@@ -140,7 +140,7 @@ func TestF13_F14_F15_F16(t *testing.T) {
 }
 
 // 2 program structure > type declarations
-func TestF17_F18_F19_F20(t *testing.T) {
+func Test2_F17_F18_F19_F20(t *testing.T) {
 	// Test F17 function
 	var c library.Celsius = 36.5
 	f17 := programStructure.F17(c)
@@ -173,7 +173,7 @@ func TestF17_F18_F19_F20(t *testing.T) {
 }
 
 // 2 program structure > packages and files
-func TestF21_F22_F23(t *testing.T) {
+func Test2_F21_F22_F23(t *testing.T) {
 	// Test F21 function
 	var c library.Celsius = 0
 	f21 := programStructure.F21(c)
@@ -199,7 +199,7 @@ func TestF21_F22_F23(t *testing.T) {
 }
 
 // 2 program structure > scope
-func TestF24(t *testing.T) {
+func Test2_F24(t *testing.T) {
 	// Test F24 function
 	f24 := programStructure.F24()
 

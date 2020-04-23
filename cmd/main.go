@@ -1,11 +1,12 @@
 package main
 
 // library "github.com/andresianipar/go-sample-code/internal"
-// tutorial "github.com/andresianipar/go-sample-code/pkg/1_tutorial"
-// programStructure "github.com/andresianipar/go-sample-code/pkg/2_program_structure"
-// basicDataTypes "github.com/andresianipar/go-sample-code/pkg/3_basic_data_types"
+// tutorial "github.com/andresianipar/go-sample-code/pkg/01_tutorial"
+// programStructure "github.com/andresianipar/go-sample-code/pkg/02_program_structure"
+// basicDataTypes "github.com/andresianipar/go-sample-code/pkg/03_basic_data_types"
+// compositeTypes "github.com/andresianipar/go-sample-code/pkg/04_composite_types"
 
-func _1() {
+func f1() {
 	// 1 tutorial > command-line arguments
 	// tutorial.F1()
 	// tutorial.F2()
@@ -32,7 +33,7 @@ func _1() {
 	// tutorial.F13(5)
 }
 
-func _2() {
+func f2() {
 	// 2 program structure > names
 	// programStructure.F1()
 
@@ -71,9 +72,9 @@ func _2() {
 	// programStructure.F16(5)
 
 	// 2 program structure > type declarations
-	// var c library.Celsius = 36.5
+	// var c1 library.Celsius = 36.5
 
-	// programStructure.F17(c)
+	// programStructure.F17(c1)
 
 	// var f library.Fahrenheit = 97.7
 
@@ -82,9 +83,9 @@ func _2() {
 	// programStructure.F20()
 
 	// 2 program structure > packages and files
-	// var c library.Celsius = 0
+	// var c2 library.Celsius = 0
 
-	// programStructure.F21(c)
+	// programStructure.F21(c2)
 
 	// var k library.Kelvin = 0
 
@@ -98,7 +99,7 @@ func _2() {
 	// programStructure.F25()
 }
 
-func _3() {
+func f3() {
 	// 3 basic data types > integers
 	// basicDataTypes.F1()
 	// basicDataTypes.F2()
@@ -147,13 +148,72 @@ func _3() {
 	// basicDataTypes.F25()
 }
 
+func f4() {
+	// 4 composite types > arrays
+	// compositeTypes.F1()
+	// compositeTypes.F2()
+	// compositeTypes.F3()
+	// compositeTypes.F4()
+	// compositeTypes.F5()
+
+	// 4 composite types > slices
+	// compositeTypes.F6()
+	// compositeTypes.F7()
+	// compositeTypes.F8()
+
+	// 4 composite types > slices > the append function
+	// compositeTypes.F9()
+
+	// 4 composite types > slices > in-place slice techniques
+	// compositeTypes.F10()
+	// compositeTypes.F11()
+	// compositeTypes.F12()
+
+	// 4 composite types > maps
+	// compositeTypes.F13()
+	// compositeTypes.F14()
+	// compositeTypes.F15()
+	// compositeTypes.F16()
+	// compositeTypes.F17()
+	// compositeTypes.F18()
+
+	// 4 composite types > structs
+	// compositeTypes.F19()
+
+	// 4 composite types > structs > struct literals
+	// compositeTypes.F20()
+	// compositeTypes.F21(compositeTypes.F20())
+	// compositeTypes.F22(compositeTypes.F20(), "Principal Software Engineer", 10000)
+
+	// 4 composite types > structs > comparing structs
+	// compositeTypes.F23()
+	// compositeTypes.F24()
+
+	// 4 composite types > structs > struct embedding and anonymous fields
+	// compositeTypes.F25()
+	// compositeTypes.F26()
+
+	// 4 composite types > json
+	// compositeTypes.F27()
+	// compositeTypes.F28()
+	// compositeTypes.F29()
+
+	// 4 composite types > text and html templates
+	// compositeTypes.F30()
+	// compositeTypes.F31()
+	// compositeTypes.F32()
+}
+
 func main() {
 	// 1 tutorial
-	// _1()
+	// f1()
 
 	// 2 program structure
-	// _2()
+	// f2()
 
 	// 3 basic data types
-	// _3()
+	// f3()
+
+	// 4 composite types
+	// f4()
 }

@@ -6,11 +6,11 @@ import (
 	"testing"
 
 	library "github.com/andresianipar/go-sample-code/internal"
-	tutorial "github.com/andresianipar/go-sample-code/pkg/1_tutorial"
+	tutorial "github.com/andresianipar/go-sample-code/pkg/01_tutorial"
 )
 
 // 1 tutorial > command-line arguments
-func TestF1_F2_F3(t *testing.T) {
+func Test1_F1_F2_F3(t *testing.T) {
 	// Test F1 function
 	f1 := tutorial.F1()
 
@@ -34,7 +34,7 @@ func TestF1_F2_F3(t *testing.T) {
 }
 
 // 1 tutorial > fetching a url
-func TestF7(t *testing.T) {
+func Test1_F7(t *testing.T) {
 	// Test F7 function
 	f7 := tutorial.F7()
 
@@ -44,7 +44,7 @@ func TestF7(t *testing.T) {
 }
 
 // 1 tutorial > fetching urls concurrently
-func TestF8(t *testing.T) {
+func Test1_F8(t *testing.T) {
 	// Test F8 function
 	f8 := tutorial.F8()
 
@@ -54,7 +54,7 @@ func TestF8(t *testing.T) {
 }
 
 // 1 tutorial > a web server
-func TestF9_F10_F11(t *testing.T) {
+func Test1_F9_F10_F11(t *testing.T) {
 	// Test F9 function
 	req, err := http.NewRequest("GET", "/", nil)
 
@@ -133,7 +133,7 @@ func TestF9_F10_F11(t *testing.T) {
 }
 
 // 1 tutorial > loose ends
-func TestF12_F13(t *testing.T) {
+func Test1_F12_F13(t *testing.T) {
 	// Test F12 function
 	heads, tails := tutorial.F12("heads")
 

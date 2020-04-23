@@ -4,6 +4,8 @@ import (
 	"fmt"
 )
 
+// 2 program structure > type declarations
+
 // Celsius type
 type Celsius float64
 
@@ -22,21 +24,16 @@ const (
 	BoilingC Celsius = 100
 )
 
-// 2 program structure > type declarations
-
-// String function
 func (c Celsius) String() string {
 	return fmt.Sprintf("%g°C", c)
 }
 
 // 2 program structure > packages and files
 
-// String function
 func (f Fahrenheit) String() string {
 	return fmt.Sprintf("%g°F", f)
 }
 
-// String function
 func (k Kelvin) String() string {
 	return fmt.Sprintf("%g°K", k)
 }
