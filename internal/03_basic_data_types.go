@@ -9,7 +9,7 @@ import (
 // 3 basic data types > strings > strings and byte slices
 
 // Basename1 function
-// basename removes directory components and a .suffix.
+// Basename1 removes directory components and a .suffix.
 // e.g., a => a, a.go => a, a/b/c.go => c, a/b.c.go => b.c
 func Basename1(s string) string {
 	// Discard last'/' and everything before.

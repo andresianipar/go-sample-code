@@ -5,6 +5,7 @@ package main
 // programStructure "github.com/andresianipar/go-sample-code/pkg/02_program_structure"
 // basicDataTypes "github.com/andresianipar/go-sample-code/pkg/03_basic_data_types"
 // compositeTypes "github.com/andresianipar/go-sample-code/pkg/04_composite_types"
+// functions "github.com/andresianipar/go-sample-code/pkg/05_functions"
 
 func f1() {
 	// 1 tutorial > command-line arguments
@@ -204,6 +205,43 @@ func f4() {
 	// compositeTypes.F32()
 }
 
+func f5() {
+	// 5 functions > recursion
+	// functions.F1()
+	// functions.F2()
+
+	// 5 functions > errors > error-handling strategies
+	// functions.F3()
+
+	// 5 functions > function values
+	// functions.F4()
+	// functions.F5()
+
+	// 5 functions > anonymous functions
+	// functions.F6()
+	// functions.F7()
+	// functions.F8()
+	// functions.F9()
+
+	// 5 functions > variadic functions
+	// functions.F10()
+	// functions.F11()
+
+	// 5 functions > deferred function calls
+	// functions.F12()
+	// functions.F13()
+	// functions.F14()
+	// functions.F15()
+
+	// 5 functions > panic
+	// functions.F16()
+	// functions.F17()
+	// functions.F18()
+
+	// 5 functions > recover
+	// functions.F19()
+}
+
 func main() {
 	// 1 tutorial
 	// f1()
@@ -216,4 +254,7 @@ func main() {
 
 	// 4 composite types
 	// f4()
+
+	// 5 functions
+	// f5()
 }

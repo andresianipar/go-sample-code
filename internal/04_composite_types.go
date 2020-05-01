@@ -22,7 +22,7 @@ func Reverse(s []int) {
 // 4 composite types > slices > in-place slice techniques
 
 // Nonempty1 function
-// nonempty1 returns a slice holding only the non-empty strings.
+// Nonempty1 returns a slice holding only the non-empty strings.
 // The underlying array is modified during the call.
 func Nonempty1(strings []string) []string {
 	i := 0
