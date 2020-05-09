@@ -6,6 +6,7 @@ package main
 // basicDataTypes "github.com/andresianipar/go-sample-code/pkg/03_basic_data_types"
 // compositeTypes "github.com/andresianipar/go-sample-code/pkg/04_composite_types"
 // functions "github.com/andresianipar/go-sample-code/pkg/05_functions"
+// methods "github.com/andresianipar/go-sample-code/pkg/06_methods"
 
 func f1() {
 	// 1 tutorial > command-line arguments
@@ -242,6 +243,26 @@ func f5() {
 	// functions.F19()
 }
 
+func f6() {
+	// 6 methods > method declarations
+	// methods.F1()
+
+	// 6 methods > methods with a pointer receiver
+	// methods.F2()
+
+	// 6 methods > methods with a pointer receiver > nil is a valid receiver value
+	// methods.F3()
+
+	// 6 methods > composing types by struct embedding
+	// methods.F4()
+	// methods.F5()
+
+	// 6 methods > method values and expressions
+	// methods.F6()
+	// methods.F7()
+	// methods.F8()
+}
+
 func main() {
 	// 1 tutorial
 	// f1()
@@ -257,4 +278,7 @@ func main() {
 
 	// 5 functions
 	// f5()
+
+	// 6 methods
+	// f6()
 }
