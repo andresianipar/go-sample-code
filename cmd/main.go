@@ -7,6 +7,7 @@ package main
 // compositeTypes "github.com/andresianipar/go-sample-code/pkg/04_composite_types"
 // functions "github.com/andresianipar/go-sample-code/pkg/05_functions"
 // methods "github.com/andresianipar/go-sample-code/pkg/06_methods"
+// interfaces "github.com/andresianipar/go-sample-code/pkg/07_interfaces"
 
 func f1() {
 	// 1 tutorial > command-line arguments
@@ -263,6 +264,45 @@ func f6() {
 	// methods.F8()
 }
 
+func f7() {
+	// 7 interfaces > interfaces as contracts
+	// interfaces.F1()
+
+	// 7 interfaces > interface satisfaction
+	// interfaces.F2()
+
+	// 7 interfaces > parsing flags with flag.Value
+	// interfaces.F3()
+	// interfaces.F4()
+
+	// 7 interfaces > interface values
+	// interfaces.F5()
+
+	// 7 interfaces > sorting with sort.interface
+	// interfaces.F6()
+	// interfaces.F7()
+	// interfaces.F8()
+	// interfaces.F9()
+	// interfaces.F10()
+
+	// 7 interfaces > the http.handler interface
+	// interfaces.F11()
+	// interfaces.F12()
+	// interfaces.F13()
+
+	// 7 interfaces > type assertions
+	// interfaces.F14()
+
+	// 7 interfaces > discriminating errors with type assertions
+	// interfaces.F15()
+
+	// 7 interfaces > querying behaviours with interface type assertions
+	// interfaces.F16()
+
+	// 7 interfaces > type switches
+	// interfaces.F17()
+}
+
 func main() {
 	// 1 tutorial
 	// f1()
@@ -281,4 +321,7 @@ func main() {
 
 	// 6 methods
 	// f6()
+
+	// 7 interfaces
+	// f7()
 }
