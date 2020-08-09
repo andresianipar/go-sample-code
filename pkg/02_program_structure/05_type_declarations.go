@@ -1,8 +1,6 @@
 package gosamplecode
 
-import (
-	library "github.com/andresianipar/go-sample-code/internal"
-)
+import library "github.com/andresianipar/go-sample-code/internal"
 
 // F17 function
 func F17(c library.Celsius) library.Fahrenheit {

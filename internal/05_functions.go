@@ -17,8 +17,8 @@ import (
 
 // 5 functions > recursion
 
-// FetchURL function
-func FetchURL(url string) (*http.Response, error) {
+// FetchURL1 function
+func FetchURL1(url string) (*http.Response, error) {
 	resp, err := http.Get(url)
 
 	if nil != err {
@@ -188,7 +188,7 @@ func TopoSort(p map[string][]string) []string {
 
 // Crawl1 function
 func Crawl1(url string) []string {
-	resp, err := FetchURL(url)
+	resp, err := FetchURL1(url)
 
 	if nil != err {
 		// fmt.Fprintf(os.Stderr, "%v\n", err)
@@ -257,7 +257,7 @@ func Errorf(linenum int, format string, args ...interface{}) {
 
 // Crawl2 function
 func Crawl2(url string) ([]string, error) {
-	resp, err := FetchURL(url)
+	resp, err := FetchURL1(url)
 
 	if nil != err {
 		// fmt.Fprintf(os.Stderr, "%v\n", err)

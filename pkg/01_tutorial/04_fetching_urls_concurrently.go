@@ -1,8 +1,6 @@
 package gosamplecode
 
-import (
-	library "github.com/andresianipar/go-sample-code/internal"
-)
+import library "github.com/andresianipar/go-sample-code/internal"
 
 // F8 function
 func F8() chan string {

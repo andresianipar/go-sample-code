@@ -10,7 +10,7 @@ import (
 
 // F19 function
 func F19() string {
-	resp, err := library.FetchURL("https://www.google.com")
+	resp, err := library.FetchURL1("https://www.google.com")
 
 	if nil != err {
 		// fmt.Fprintf(os.Stderr, "%v\n", err)

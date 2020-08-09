@@ -8,6 +8,7 @@ package main
 // functions "github.com/andresianipar/go-sample-code/pkg/05_functions"
 // methods "github.com/andresianipar/go-sample-code/pkg/06_methods"
 // interfaces "github.com/andresianipar/go-sample-code/pkg/07_interfaces"
+// goroutinesAndChannels "github.com/andresianipar/go-sample-code/pkg/08_goroutines_and_channels"
 
 func f1() {
 	// 1 tutorial > command-line arguments
@@ -303,6 +304,48 @@ func f7() {
 	// interfaces.F17()
 }
 
+func f8() {
+	// 8 goroutines and channels > goroutines
+	// goroutinesAndChannels.F1()
+
+	// 8 goroutines and channels > example: concurrent clock server
+	// goroutinesAndChannels.F2()
+
+	// 8 goroutines and channels > example: concurrent echo server
+	// goroutinesAndChannels.F3()
+
+	// 8 goroutines and channels > channels > unbuffered channels
+	// goroutinesAndChannels.F4()
+
+	// 8 goroutines and channels > channels > pipelines
+	// goroutinesAndChannels.F5()
+
+	// 8 goroutines and channels > channels > unidirectional channel types
+	// goroutinesAndChannels.F6()
+
+	// 8 goroutines and channels > channels > buffered channels
+	// goroutinesAndChannels.F7()
+
+	// 8 goroutines and channels > example: concurrent web crawler
+	// goroutinesAndChannels.F8()
+
+	// 8 goroutines and channels > multiplexing with select
+	// goroutinesAndChannels.F9()
+	// goroutinesAndChannels.F10()
+	// goroutinesAndChannels.F11()
+
+	// 8 goroutines and channels > example: concurrent directory traversal
+	// goroutinesAndChannels.F12()
+	// goroutinesAndChannels.F13()
+	// goroutinesAndChannels.F14()
+
+	// 8 goroutines and channels > cancellation
+	// goroutinesAndChannels.F15()
+
+	// 8 goroutines and channels > example chat server
+	// goroutinesAndChannels.F16()
+}
+
 func main() {
 	// 1 tutorial
 	// f1()
@@ -324,4 +367,7 @@ func main() {
 
 	// 7 interfaces
 	// f7()
+
+	// 8 goroutines and channels
+	// f8()
 }

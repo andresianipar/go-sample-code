@@ -10,7 +10,7 @@ import (
 
 // F1 function
 func F1() []string {
-	resp, err := library.FetchURL("https://golang.org")
+	resp, err := library.FetchURL1("https://golang.org")
 
 	if nil != err {
 		// fmt.Fprintf(os.Stderr, "%v\n", err)
@@ -37,7 +37,7 @@ func F1() []string {
 
 // F2 function
 func F2() []string {
-	resp, err := library.FetchURL("https://golang.org")
+	resp, err := library.FetchURL1("https://golang.org")
 
 	if nil != err {
 		// fmt.Fprintf(os.Stderr, "%v\n", err)

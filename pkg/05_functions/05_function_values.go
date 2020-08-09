@@ -31,7 +31,7 @@ func F4() (func(int) int, func(int) int, string) {
 
 // F5 function
 func F5() []string {
-	resp, err := library.FetchURL("https://golang.org")
+	resp, err := library.FetchURL1("https://golang.org")
 
 	if nil != err {
 		// fmt.Fprintf(os.Stderr, "%v\n", err)

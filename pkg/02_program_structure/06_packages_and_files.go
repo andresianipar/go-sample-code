@@ -1,8 +1,6 @@
 package gosamplecode
 
-import (
-	library "github.com/andresianipar/go-sample-code/internal"
-)
+import library "github.com/andresianipar/go-sample-code/internal"
 
 // F21 function
 func F21(c library.Celsius) library.Kelvin {
